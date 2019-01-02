@@ -1,6 +1,6 @@
 from setuptools import setup
 
-VERSION = '0.1'
+VERSION = '0.2'
 
 setup(
     name='datasette-sqlite-fts4',
@@ -15,5 +15,5 @@ setup(
             'sqlite_fts4 = datasette_sqlite_fts4'
         ]
     },
-    install_requires=['datasette', 'sqlite-fts4-rank']
+    install_requires=['datasette', 'sqlite-fts4']
 )

@@ -1,5 +1,5 @@
 from datasette import hookimpl
-from sqlite_fts4_rank import register_functions
+from sqlite_fts4 import register_functions
 
 
 @hookimpl
