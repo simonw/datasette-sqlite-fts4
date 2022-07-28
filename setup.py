@@ -1,7 +1,7 @@
 from setuptools import setup
 import os
 
-VERSION = "0.3"
+VERSION = "0.3.1"
 
 
 def get_long_description():
@@ -23,5 +23,5 @@ setup(
     version=VERSION,
     packages=["datasette_sqlite_fts4"],
     entry_points={"datasette": ["sqlite_fts4 = datasette_sqlite_fts4"]},
-    install_requires=["datasette", "sqlite-fts4"],
+    install_requires=["datasette", "sqlite-fts4>=1.0.2"],
 )
