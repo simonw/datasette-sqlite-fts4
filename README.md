@@ -1,8 +1,9 @@
 # datasette-sqlite-fts4
 
 [![PyPI](https://img.shields.io/pypi/v/datasette-sqlite-fts4.svg)](https://pypi.org/project/datasette-sqlite-fts4/)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/simonw/datasette-sqlite-fts4/blob/master/LICENSE)
-
+[![Changelog](https://img.shields.io/github/v/release/simonw/datasette-sqlite-fts4?include_prereleases&label=changelog)](https://github.com/simonw/datasette-sqlite-fts4/releases)
+[![Tests](https://github.com/simonw/datasette-sqlite-fts4/workflows/Test/badge.svg)](https://github.com/simonw/datasette-sqlite-fts4/actions?query=workflow%3ATest)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/simonw/datasette-sqlite-fts4/blob/main/LICENSE)
 
 Datasette plugin that exposes the custom SQL functions from [sqlite-fts4](https://github.com/simonw/sqlite-fts4).
 
