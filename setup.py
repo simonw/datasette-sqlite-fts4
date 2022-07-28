@@ -19,9 +19,20 @@ setup(
     long_description_content_type="text/markdown",
     author="Simon Willison",
     url="https://github.com/simonw/datasette-sqlite-fts4",
+    project_urls={
+        "Issues": "https://github.com/simonw/datasette-sqlite-fts4/issues",
+        "CI": "https://github.com/simonw/datasette-sqlite-fts4/actions",
+        "Changelog": "https://github.com/simonw/datasette-sqlite-fts4/releases",
+    },
     license="Apache License, Version 2.0",
+    classifiers=[
+        "Framework :: Datasette",
+        "License :: OSI Approved :: Apache Software License",
+    ],
     version=VERSION,
     packages=["datasette_sqlite_fts4"],
     entry_points={"datasette": ["sqlite_fts4 = datasette_sqlite_fts4"]},
     install_requires=["datasette", "sqlite-fts4>=1.0.2"],
+    extras_require={"test": ["pytest", "pytest-asyncio"]},
+    python_requires=">=3.7",
 )
